@@ -23,6 +23,11 @@ body {
 }
 .left-navbar > a {
   padding: 0 10px;
+  text-decoration: none;
+}
+
+.left-navbar > a:visited {
+  color: #202124;
 }
 
 .right-navbar {
@@ -37,9 +42,17 @@ body {
 
 .gmail-wrapper > a {
   padding: 0 10px;
+  text-decoration: none;
+}
+.gmail-wrapper > a:visited {
+  color: #202124;
 }
 
-.right-navbar > i {
+.fa-braille {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.fa-circle {
   font-size: 38px;
 }
 
@@ -62,6 +75,23 @@ body {
   border-radius: 30px;
   line-height: 45px;
   border: 1px solid #d8d7d7;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 15px;
+  color: #d8d7d7;
+  z-index: 1;
+}
+
+.fa-microphone {
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 625px;
+  font-size: 20px;
+  color: blue;
+  z-index: 1;
 }
 
 .button-wrapper {
@@ -111,6 +141,10 @@ body {
 
 .footer2 {
   text-align: center;
+}
+
+.fa-envira {
+  color: green;
 }
 
 .footer3 {
